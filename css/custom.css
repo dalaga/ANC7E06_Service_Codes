@@ -5,10 +5,12 @@ body {
 
 a { color: #4B58A6; }
 a:hover { color: #4B58A6; }
+h1 { color: #4b58a6; font-size: 26px; font-weight: normal; line-height: 1.08; margin-bottom: 0.1em; margin-top: 0.3em; width: 65.5%; }
 
-#map_canvas {
- height: 100%;
- }
+
+#map_canvas { height: 100%; width:100%; }
+#map_canvas img { float: right; padding-bottom: 8px; }
+#map_canvas h5 { clear: both; }
 
 .filter-box {
   height: 15px;
@@ -23,6 +25,8 @@ a:hover { color: #4B58A6; }
      -moz-background-clip: padding;
           background-clip: padding-box;
 }
+
+.content-secondary { float: left; width: 28%; }
 
 .filter-yellow { background-color: #FBF358; }
 .filter-green { background-color: #00E13C; }
